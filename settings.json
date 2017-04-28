@@ -1,0 +1,11 @@
+{
+	"workbench.activityBar.visible": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "EggplantParm",
+	"editor.fontFamily": "'monospace'",
+	"workbench.statusBar.visible": true,
+	"window.menuBarVisibility": "toggle",
+	"editor.renderIndentGuides": false,
+	"terminal.integrated.fontSize": 15,
+	"editor.fontSize": 15
+}
