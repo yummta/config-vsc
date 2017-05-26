@@ -102,7 +102,41 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+alt+l",
+				"key": "ctrl+alt+down",
         "command": "workbench.action.terminal.focus"
-    }
-]
+		},
+		{
+			"key": "ctrl+alt+z",
+			"command": "workbench.action.maximizeEditor"
+		},
+		{
+			"key": "ctrl+shift+alt+z",
+			"command": "workbench.action.evenEditorWidths"
+		},
+		{
+			"key": "ctrl+alt+left",
+			"command": "-workbench.action.moveEditorToPreviousGroup"
+		},
+		{
+			"key": "ctrl+alt+up",
+			"command": "workbench.action.focusActiveEditorGroup"
+		},
+		{
+			"key": "ctrl+[Backquote]",
+			"command": "extension.addHighlight"
+		},
+		{
+			"key": "ctrl+shift+[Backquote]",
+			"command": "extension.removeHighlight"
+		},
+		{
+			"key": "ctrl+alt+d",
+			"command": "editor.action.moveSelectionToNextFindMatch",
+			"when": "editorFocus"
+		},
+		{
+			"key": "ctrl+k ctrl+d",
+			"command": "-editor.action.moveSelectionToNextFindMatch",
+			"when": "editorFocus"
+		}
+	]

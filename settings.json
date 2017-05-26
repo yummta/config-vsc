@@ -12,5 +12,7 @@
 	"editor.mouseWheelZoom": true,
 	"editor.tabSize": 2,
 	"editor.insertSpaces": false,
-	"editor.detectIndentation": false
+	"editor.detectIndentation": false,
+	"editor.wordWrap": "on",
+	"editor.renderLineHighlight": "all",
 }
