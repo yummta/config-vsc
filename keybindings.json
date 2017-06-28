@@ -138,5 +138,9 @@
 			"key": "ctrl+k ctrl+d",
 			"command": "-editor.action.moveSelectionToNextFindMatch",
 			"when": "editorFocus"
+		},
+		{
+			"key": "ctrl+[Backquote]",
+			"command": "extension.colorHighlight"
 		}
 	]
